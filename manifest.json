@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Trimwise",
-  "version": "1.0",
+  "name": "ChatGPT Lag Fixer – Auto-hide old messages in long chats",
+  "version": "1.1",
   "description": "Hides all but the last 50 messages in chatGPT",
-  "permissions": ["scripting"],
+  "permissions": ["scripting", "storage"],
   "host_permissions": ["https://chatgpt.com/*"],
   "content_scripts": [
     {
@@ -16,5 +16,7 @@
     "16": "icon.png",
     "48": "icon.png",
     "128": "icon.png"
-  }
+  },
+  "options_page": "options.html"
 }
+
