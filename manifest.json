@@ -3,7 +3,7 @@
   "name": "ChatGPT Lag Fixer – Auto-hide old messages in long chats",
   "version": "1.1",
   "description": "Hides all but the last 50 messages in chatGPT",
-  "permissions": ["scripting", "storage"],
+  "permissions": ["storage"],
   "host_permissions": ["https://chatgpt.com/*"],
   "content_scripts": [
     {
